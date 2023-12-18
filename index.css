@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(45deg , blue,red);
+}
+
+.name_section{
+  margin: 0px;
+    width: 30%;
+    height: 100%;
+    position:absolute;
+
+}
+.info_section{
+/* margin: 20px; */
+  width: 69%;
+  
+    background-color:aliceblue;
+    position:absolute;
+    left: 31%;
+    top: 5px;
+    border-radius: 5px;
+    
+}
+.name_section p{
+    padding: 5px;
+    border: 2px solid black;
+    width: 90%;
+    border-radius: 5px;
+    margin-left:2px ;
+    background-color: aliceblue;
+
+}
+.name_section p:hover{
+    color: burlywood;
+    cursor: pointer;
+    border-color:red ;
+}
+.posts{
+  width: 90%;
+  border: 0.1px solid black;
+  margin: 5px auto;
+  padding: 4px;
+  border-radius:4px ;
+}
+.posts p{
+  margin: 0;
+}
+.posts h3{
+  margin-top:0 ;
+}
